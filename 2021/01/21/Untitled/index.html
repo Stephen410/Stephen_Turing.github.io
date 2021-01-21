@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="日常生活, 图灵小跟班">
+    <meta name="keywords" content="用hexo-admin插件快捷管理文章, 图灵小跟班">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>日常生活 | 图灵小跟班</title>
+    <title>用hexo-admin插件快捷管理文章 | 图灵小跟班</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">日常生活</h1>
+                    <h1 class="description center-align post-title">用hexo-admin插件快捷管理文章</h1>
                 </div>
             </div>
         </div>
@@ -443,7 +443,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-01-20
+                    2021-01-21
                 </div>
                 
 
@@ -464,8 +464,69 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>日常生活</p>
-
+                <h1 id="用hexo—admin插件快捷管理文章"><a href="#用hexo—admin插件快捷管理文章" class="headerlink" title="用hexo—admin插件快捷管理文章"></a>用hexo—admin插件快捷管理文章</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>本文主要介绍了如何利用hexo—admin插件方便快捷的去管理自己的blog。</p>
+<h2 id="为什么用hexo-admin"><a href="#为什么用hexo-admin" class="headerlink" title="为什么用hexo-admin"></a>为什么用hexo-admin</h2><p>对于使用自己在GitHub上搭建的个人博客来说，很有必要使用hexo-admin插件对自己的博客进行管理，这样能够便捷的管理自己的文章，而不是自己手动去执行各种的指令。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="直接在你运行的blog中执行一条指令"><a href="#直接在你运行的blog中执行一条指令" class="headerlink" title="直接在你运行的blog中执行一条指令"></a>直接在你运行的blog中执行一条指令</h3><ul>
+<li>npm install hexo-admin –save</li>
+<li>如果配置了淘宝数据源可以用 cnpm install hexo-admin –save</li>
+</ul>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="1-基本使用步骤"><a href="#1-基本使用步骤" class="headerlink" title="1.基本使用步骤"></a>1.基本使用步骤</h3><ul>
+<li><p>1.在使用之前在你自己的博客文件夹中用git bush打开</p>
+<ul>
+<li></li>
+</ul>
+</li>
+<li><p>2.在你刚刚打开git bush中输入“hexo s”</p>
+<ul>
+<li></li>
+</ul>
+</li>
+<li><p>3.打开浏览器输入 <a target="_blank" rel="noopener" href="http://localhost:4000/admin">http://localhost:4000/admin</a></p>
+<ul>
+<li></li>
+</ul>
+</li>
+</ul>
+<h3 id="2-后台功能"><a href="#2-后台功能" class="headerlink" title="2.后台功能"></a>2.后台功能</h3><p>Posts - 新加或删除 post；双击一个 post，你可以编辑，预览，新增修改 tags、categories，选择发布或不发布；<br>Pages - 新加 page；<br>About - 关于admin插件的一些信息；<br>Deploy - 可以直接部署到 github；<br>Settings - 一些配置。</p>
+<h3 id="3-配置密码"><a href="#3-配置密码" class="headerlink" title="3.配置密码"></a>3.配置密码</h3><p>有一个缺点速度变慢了</p>
+<ul>
+<li><p>进入settings界面，先设置账号密码，毕竟后台如果能够随便访问的话以也是很危险的。</p>
+<ul>
+<li></li>
+</ul>
+</li>
+<li><p>点击 Setup authentification here</p>
+<ul>
+<li></li>
+</ul>
+</li>
+<li><p>3.填写相关信息</p>
+<ul>
+<li></li>
+</ul>
+</li>
+<li><p>4.将下面生成的粘贴到你的 _config.yml文件中</p>
+<ul>
+<li></li>
+</ul>
+</li>
+<li><p>5.设置好后重新开启一下hexo<br>就可以看到需要登录了</p>
+<ul>
+<li></li>
+</ul>
+</li>
+</ul>
+<h3 id="4-设置发布脚本"><a href="#4-设置发布脚本" class="headerlink" title="4.设置发布脚本"></a>4.设置发布脚本</h3><ul>
+<li><p>进入后台后在deploy界面可以直接将文章进行发布，前提要提前设置发布脚本，否则就会报错</p>
+</li>
+<li><p>在博客的根目录下创建一个文件夹script 用于存放脚本，然后新建一个脚本，下上下面代码并保存，给脚本执行权限</p>
+<p>[root@localhost blog]# mkdir script<br>[root@localhost script]# vim hexo-d.sh<br>[root@localhost script]# cat hexo-d.sh <br>hexo g &amp;&amp; hexo d<br>[root@localhost script]# chmod +x hexo-d.sh</p>
+</li>
+<li><p>在设置脚本后，在主配置文件中，在刚刚的admin配置下添加一行deploycommand</p>
+<p>admin:<br> username: admin<br> password_hash: XXXXXXXX<br> secret: XXXXXX<br> deployCommand: ./script/hexo-d.sh</p>
+</li>
+</ul>
+<h2 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h2><h3 id="1-hexo博客使用hexo-admin插件管理文章"><a href="#1-hexo博客使用hexo-admin插件管理文章" class="headerlink" title="1.hexo博客使用hexo-admin插件管理文章"></a>1.hexo博客使用hexo-admin插件管理文章</h3><h3 id="2-hexo添加admin后台"><a href="#2-hexo添加admin后台" class="headerlink" title="2.hexo添加admin后台"></a>2.hexo添加admin后台</h3>
                 
             </div>
             <hr/>
@@ -491,7 +552,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://stephenturing.github.io/tags/index.html">http://stephenturing.github.io/tags/index.html</a>
+                    <a href="http://stephenturing.github.io/2021/01/21/Untitled/">http://stephenturing.github.io/2021/01/21/Untitled/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -703,13 +764,13 @@
                 <i class="far fa-dot-circle"></i>&nbsp;Current
             </div>
             <div class="card">
-                <a href="/tags/index.html">
+                <a href="/2021/01/21/Untitled/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="日常生活">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="用hexo-admin插件快捷管理文章">
                         
-                        <span class="card-title">日常生活</span>
+                        <span class="card-title">用hexo-admin插件快捷管理文章</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -720,7 +781,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-20
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-21
                             </span>
                         <span class="publish-author">
                             
@@ -738,16 +799,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/tags/index.html">
+                <a href="/2021/01/19/hello-world/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="日常生活">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
                         
-                        <span class="card-title">日常生活</span>
+                        <span class="card-title">Hello World</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -758,7 +819,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-20
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-19
                             </span>
                         <span class="publish-author">
                             
@@ -768,7 +829,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
